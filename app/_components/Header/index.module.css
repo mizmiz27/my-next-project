@@ -17,6 +17,11 @@
   width: auto;
 }
 
+.items {
+  display: flex;
+  color: var(--color-text-unpainted);
+}
+
 @media (max-width: 640px) {
   .header {
     padding: 24px 16px 8px;
